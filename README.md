@@ -53,7 +53,7 @@ To use this script, you'll need the following installed:
     
     Fetching details for Resource Group:
 
-  ![alt text](assets/image.png)
+  ![alt text](assets/output_example.png)
 
 ---
 ## 🔗 References
