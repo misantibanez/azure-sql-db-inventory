@@ -38,7 +38,7 @@ To use this script, you'll need the following installed:
 ## 🚀 Getting Started
 - **🔧 1. Clone the repository**
 
-      git clone https://github.com/yourusername/azure-sql-db-inventory.git
+      git clone https://github.com/misantibanez/azure-sql-db-inventory.git
       cd azure-sql-db-inventory
     
 - **▶️ 2. Run the script**
