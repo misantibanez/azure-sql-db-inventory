@@ -11,8 +11,8 @@ Ideal for cloud administrators, DevOps engineers, or developers managing large-s
 - ✅ Lists all Azure SQL Databases across your subscription
 - 🗂️ Groups databases by their parent SQL server and resource group
 - 📊 Displays database service tier, status, and zone redundancy in a clean table format
-- 🔁 Uses only standard CLI tools — no Azure policies or premium features required
-- 🧩 Easily customizable for filtering, CSV export, or integration into CI/CD pipelines
+- 🔁 Uses standard CLI tools
+- 🧩 Easily customizable for filtering, CSV export
 
 ---
 
