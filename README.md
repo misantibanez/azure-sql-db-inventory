@@ -1,6 +1,6 @@
 # 🔍 Azure SQL Database Inventory Script
 
-This Bash script leverages the Azure CLI and `jq` to inventory all **Azure SQL Databases** in your subscription. It organizes the databases by **SQL server** and **resource group**, and displays useful details such as service tier, current status, and zone redundancy.
+This Bash script leverages the Azure CLI to inventory all **Azure SQL Databases** in your subscription. It organizes the databases by **SQL server** and **resource group**, and displays useful details such as service tier, current status, and zone redundancy.
 
 Ideal for cloud administrators, DevOps engineers, or developers managing large-scale Azure environments.
 
