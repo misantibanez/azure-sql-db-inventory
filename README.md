@@ -22,10 +22,35 @@ To use this script, you'll need the following installed:
 
 - **Azure CLI**  
   [Install instructions](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
-  
-- **jq** (Command-line JSON processor)  
-  [Install instructions](https://stedolan.github.io/jq/)
 
 - **Login to your Azure account** before running the script:
   ```bash
   az login
+
+---
+
+## 🚀 Getting Started
+**🔧 1. Clone the repository**
+      ```bash
+      git clone https://github.com/yourusername/azure-sql-db-inventory.git
+      cd azure-sql-db-inventory
+      
+**📜 2. Make the script executable**
+      ```bash
+      chmod +x list-azure-sql-databases.sh
+      
+**▶️ 3. Run the script**
+      ```bash
+      ./list-azure-sql-databases.sh
+
+---
+
+## 🖥️ Example Output
+    ```bash
+    Fetching details for Resource Group: my-rg, Server: my-sql-server
+    
+    Name      Size    Status   ZoneRedundant
+    --------  ------  -------  --------------
+    db1       S0      Online   False
+    db2       P1      Online   True
+
