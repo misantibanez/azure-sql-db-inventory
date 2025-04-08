@@ -1,6 +1,6 @@
 # 🔍 Azure SQL Database Inventory Script
 
-This Bash script leverages the Azure CLI to inventory all **Azure SQL Databases** in your subscription. It organizes the databases by **SQL server** and **resource group**, and displays useful details such as service tier, current status, and zone redundancy.
+This powershell script leverages the Azure CLI to inventory all **Azure SQL Databases** in your subscription. It organizes the databases by **SQL server** and **resource group**, and displays useful details such as service tier, current status, and zone redundancy.
 
 Ideal for cloud administrators, DevOps engineers, or developers managing large-scale Azure environments.
 
@@ -16,7 +16,7 @@ Ideal for cloud administrators, DevOps engineers, or developers managing large-s
 
 ---
 
-## 📦 Prerequisites
+## 📦 Pre-requisites
 
 To use this script, you'll need the following installed:
 
@@ -66,3 +66,18 @@ To use this script, you'll need the following installed:
 - [Azure Built-in Roles: Contributor](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
 - [Azure Role-Based Access Control (RBAC)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
 
+---
+## 🛠️ Troubleshooting
+
+If you encounter any issues, here are some common solutions:
+
+1. **Error: "Unable to authenticate"**
+   - Ensure you've run `az login` and that you have the necessary permissions for the subscription.
+
+2. **Error: "Command not found"**
+   - Make sure you've installed the Azure CLI and are running the script in the correct environment (Bash or PowerShell).
+   
+3. **Output not as expected**
+   - Ensure your subscription contains SQL databases and that the `az sql db list` command is functioning properly.
+
+For more help, refer to the [Azure CLI troubleshooting guide](https://learn.microsoft.com/en-us/azure/azure-cli-logging-troubleshoot).
