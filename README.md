@@ -43,18 +43,16 @@ To use this script, you'll need the following installed:
     
 - **▶️ 2. Run the script**
 
-      ./list-azure-sql-databases.sh
+      ./list-azure-sql-databases.ps1
+      ![image](https://github.com/user-attachments/assets/7040ac55-911a-4ce2-8982-c098cd3295d5)
 
 ---
 
 ## 🖥️ Example Output
     
-    Fetching details for Resource Group: my-rg, Server: my-sql-server
-    
-    Name      Size    Status   ZoneRedundant
-    --------  ------  -------  --------------
-    db1       S0      Online   False
-    db2       P1      Online   True
+    Fetching details for Resource Group:
+
+    ![image](https://github.com/user-attachments/assets/1bfe3806-727b-4b4c-a616-de164cde4ef3)
 
 ---
 ## 🔗 References
