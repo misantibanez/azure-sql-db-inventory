@@ -45,7 +45,7 @@ To use this script, you'll need the following installed:
 
       cd scripts
       .\list-azure-sql-databases.ps1
-    ![image](https://github.com/misantibanez/azure-sql-db-inventory/tree/main/assets/run_script.png)
+    ![alt text](assets/run_script.png)
 
 ---
 
