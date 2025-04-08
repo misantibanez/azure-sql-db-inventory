@@ -45,7 +45,7 @@ To use this script, you'll need the following installed:
 
       cd scripts
       .\list-azure-sql-databases.ps1
-      ![image](https://github.com/misantibanez/assets/run_script.png)
+      ![image](https://github.com/misantibanez/azure-sql-db-inventory/tree/main/assets/run_script.png)
 
 ---
 
@@ -53,7 +53,7 @@ To use this script, you'll need the following installed:
     
     Fetching details for Resource Group:
 
-    ![image](https://github.com/misantibanez/assets/output_example.png)
+    ![image](https://github.com/misantibanez/azure-sql-db-inventory/tree/main/assets/output_example.png)
 
 ---
 ## 🔗 References
