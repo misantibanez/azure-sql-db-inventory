@@ -67,7 +67,6 @@ To use this script, you'll need the following installed:
 - [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 - [Azure CLI `az resource list`](https://learn.microsoft.com/en-us/cli/azure/resource#az-resource-list)
 - [Azure CLI `az sql db list`](https://learn.microsoft.com/en-us/cli/azure/sql/db#az-sql-db-list)
-- [jq - Command-line JSON processor](https://stedolan.github.io/jq/)
 - [Azure Built-in Roles: Reader](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader)
 - [Azure Built-in Roles: Contributor](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
 - [Azure Role-Based Access Control (RBAC)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
