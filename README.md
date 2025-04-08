@@ -27,19 +27,25 @@ To use this script, you'll need the following installed:
   ```bash
   az login
 
+- **✅ Minimum Role Required**
+  To run your script successfully, a user needs at least the Reader role at the subscription level plus visibility into the SQL resources.
+
+  Specifically, they need permission to:
+    List Azure resources (for az resource list)
+    List SQL servers and databases (for az sql db list)
 ---
 
 ## 🚀 Getting Started
-**🔧 1. Clone the repository**
+- **🔧 1. Clone the repository**
 
       git clone https://github.com/yourusername/azure-sql-db-inventory.git
       cd azure-sql-db-inventory
 
-**📜 2. Make the script executable**
+- **📜 2. Make the script executable** (optional)
 
       chmod +x list-azure-sql-databases.sh
       
-**▶️ 3. Run the script**
+- **▶️ 3. Run the script**
 
       ./list-azure-sql-databases.sh
 
