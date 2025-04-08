@@ -40,12 +40,8 @@ To use this script, you'll need the following installed:
 
       git clone https://github.com/yourusername/azure-sql-db-inventory.git
       cd azure-sql-db-inventory
-
-- **📜 2. Make the script executable** (optional)
-
-      chmod +x list-azure-sql-databases.sh
-      
-- **▶️ 3. Run the script**
+    
+- **▶️ 2. Run the script**
 
       ./list-azure-sql-databases.sh
 
