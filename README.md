@@ -53,7 +53,7 @@ To use this script, you'll need the following installed:
     
     Fetching details for Resource Group:
 
-    ![image](https://github.com/misantibanez/azure-sql-db-inventory/tree/main/assets/output_example.png)
+    ![alt text](assets/image.png)
 
 ---
 ## 🔗 References
