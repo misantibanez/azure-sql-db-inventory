@@ -43,8 +43,9 @@ To use this script, you'll need the following installed:
     
 - **▶️ 2. Run the script**
 
-      ./list-azure-sql-databases.ps1
-      ![image](https://github.com/user-attachments/assets/7040ac55-911a-4ce2-8982-c098cd3295d5)
+      cd scripts
+      .\list-azure-sql-databases.ps1
+      ![image](https://github.com/misantibanez/assets/run_script.png)
 
 ---
 
@@ -52,7 +53,7 @@ To use this script, you'll need the following installed:
     
     Fetching details for Resource Group:
 
-    ![image](https://github.com/user-attachments/assets/1bfe3806-727b-4b4c-a616-de164cde4ef3)
+    ![image](https://github.com/misantibanez/assets/output_example.png)
 
 ---
 ## 🔗 References
