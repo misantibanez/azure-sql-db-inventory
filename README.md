@@ -19,6 +19,8 @@ Ideal for cloud administrators, DevOps engineers, or developers managing large-s
 ## 📦 Pre-requisites
 
 To use this script, you'll need the following installed:
+- **Git**  
+  [Install instructions](https://git-scm.com/downloads)
 
 - **Azure CLI**  
   [Install instructions](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
